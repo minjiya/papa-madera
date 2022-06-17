@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<title>PAPA MADERA 홈페이지에 오신것을 환영합니다.</title>
+		<meta charset="utf-8">
+		<link href="css/common.css" rel="stylesheet">
+		<link href="css/index.css" rel="stylesheet">
+		<script src="js/jquery-1.12.3.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/index.js"></script>
+		<script src="https://kit.fontawesome.com/6ab2821d7c.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header id="top">
+			<div class="header_cover">
+				<h1><a href="index.html"><img src="images/logo.png" alt="파파마데라로고"></a></h1>
+				<div class="info_cover">
+					<ul class="personal_info">
+						<li><a href="login.html">로그인</a></li>
+						<li><a href="join.html">회원가입</a></li>
+						<li><a href="cart.html">장바구니</a></li>
+						<li><a href="order.html">주문조회</a></li>
+					</ul>
+					<ul class="search_info">
+						<li><input type="text" id="search" title="search"></li>
+						<li><i class="fas fa-search"></i></li>
+					</ul>
+				</div>
+			</div>
+			<nav>
+				<ul class="main">
+					<li><a href="collection.html" class="ad">COLLECTION</a>
+						<ul class="sub">
+							<li><a href="collection.html">OAK</a></li>
+							<li><a href="collection.html">MEISTER</a></li>
+							<li><a href="collection.html">ETHNIC</a></li>
+						</ul>
+					</li>
+					<li><a href="living.html" class="ad">LIVING</a>
+						<ul class="sub">
+							<li><a href="living.html">소파</a></li>
+							<li><a href="living.html">거실장</a></li>
+							<li><a href="living.html">소파테이블</a></li>
+							<li><a href="living.html">스툴</a></li>
+						</ul>
+					</li>
+					<li><a href="bedroom.html" class="ad">BEDROOM</a>
+						<ul class="sub">
+							<li><a href="bedroom.html">침대</a></li>
+							<li><a href="bedroom.html">화장대/콘솔</a></li>
+							<li><a href="bedroom.html">협탁</a></li>
+							<li><a href="bedroom.html">서랍/수납장</a></li>
+						</ul>
+					</li>
+					<li><a href="study.html" class="ad">STUDY</a>
+						<ul class="sub">
+							<li><a href="study.html">책상</a></li>
+							<li><a href="study.html">책장</a></li>
+							<li><a href="study.html">소품</a></li>
+						</ul>
+					</li>
+					<li><a href="kitchen.html" class="ad">KITCHEN</a>
+						<ul class="sub">
+							<li><a href="kitchen.html">식탁</a></li>
+							<li><a href="kitchen.html">그릇장</a></li>
+							<li><a href="kitchen.html">용품</a></li>
+						</ul>
+					</li>
+					<li><a href="media.html" class="ad">MEDIA</a>
+						<ul class="sub">
+							<li><a href="media.html">미디어협찬</a></li>
+							<li><a href="media.html">언론</a></li>
+						</ul>
+					</li>
+					<li><a href="event.html" class="ad">EVENT</a>
+						<ul class="sub">
+							<li><a href="event.html">진열상품</a></li>
+							<li><a href="event.html">이벤트</a></li>
+							<li><a href="event.html">리뷰</a></li>
+						</ul>
+					</li>
+					<li><a href="brand.html" class="ad">BRAND</a>
+						<ul class="sub">
+							<li><a href="brand.html">매장안내</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		
+		<div class="contents">
+			<section class="slide_cover">
+				<h2 class="hidden">슬라이드 배너</h2>
+				<div class="slide">
+					<div><p><a href="product1.html">이달의 상품 바로가기</a></p></div>
+					<div><p><a href="product1.html">자세히 보러 가기</a></p></div>
+					<div><p><a href="product1.html">30% 할인받기 클릭</a></p></div>
+				</div>
+				<p class="prev"><img src="images/prev.png" alt="prev"></p>
+				<p class="next"><img src="images/next.png" alt="next"></p>
+				<ul class="bullet">
+					<li class="hover"></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</section>
+			<section class="category_cover">
+				<h2 class="hidden">카테고리 배너</h2>
+				<ul class="category">
+					<li>
+						<p><a href="bedroom.html"><img src="images/category_01.png" alt="침대"></a></p>
+						<p>침대</p>
+					</li>
+					<li>
+						<p><a href="living.html"><img src="images/category_02.png" alt="테이블"></a></p>
+						<p>테이블</p>
+					</li>
+					<li>
+						<p><a href="bedroom.html"><img src="images/category_03.png" alt="서랍"></a></p>
+						<p>서랍</p>
+					</li>
+					<li>
+						<p><a href="bedroom.html"><img src="images/category_04.png" alt="화장대"></a></p>
+						<p>화장대</p>
+					</li>
+					<li>
+						<p><a href="kitchen.html"><img src="images/category_05.png" alt="식탁"></a></p>
+						<p>식탁</p>
+					
+					</li>
+					<li>
+						<p><a href="study.html"><img src="images/category_06.png" alt="책장"></a></p>
+						<p>책장</p>
+					</li>
+				</ul>
+			</section>
+			<section class="new_cover">
+				<h2 class="hidden">신제품</h2>
+				<div class="new_title">
+					<p>PAPA MADERA</p>
+					<p>New Arrival</p>
+					<p>시간이 지날수록 감성이 더해지는 파파마데라의 오크 라인을 만나보세요.</p>
+				</div>
+				<div class="new_slide">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<div class="new_product">
+					<ul>
+						<li>
+							<a href="product.html">
+								<img src="images/new_small_01.png" alt="">
+								<p class="name">화이트오크 티비스탠드</p>
+								<p class="price">1,570,000</p>
+							</a>
+						</li>
+						<li>
+							<a href="product.html">
+								<img src="images/new_small_02.png" alt="">
+								<p class="name">화이트오크 확장형 테이블</p>
+								<p class="price">1,760,000</p>
+							</a>
+						</li>
+						<li>
+							<a href="product.html">
+								<img src="images/new_small_03.png" alt="">
+								<p class="name">화이트오크 벤치</p>
+								<p class="price">570,000</p>
+							</a>
+						</li>
+						<li>
+							<a href="product.html">
+								<img src="images/new_small_04.png" alt="">
+								<p class="name">월넛 와이드체스트</p>
+								<p class="price">2,180,000</p>
+							</a>
+						</li>
+						<li>
+							<a href="product.html">
+								<img src="images/new_small_05.png" alt="">
+								<p class="name">월넛 티비스탠드</p>
+								<p class="price">1,570,000</p>
+							</a>
+						</li>
+						<li>
+							<a href="product.html">
+								<img src="images/new_small_06.png" alt="">
+								<p class="name">케니 그릇장</p>
+								<p class="price">1,220,000</p>
+							</a>
+						</li>
+						<li>
+							<a href="product.html">
+								<img src="images/new_small_07.png" alt="">
+								<p class="name">케니 식탁의자</p>
+								<p class="price">250,000</p>
+							</a>
+						</li>
+						<li>
+							<a href="product.html">
+								<img src="images/new_small_08.png" alt="">
+								<p class="name">케니 오크 침대프레임</p>
+								<p class="price">1,780,000</p>
+							</a>
+						</li>
+					</ul>
+					<p class="product_pre"><img src="images/prev.png" alt="화살표"></p>
+					<p class="product_next"><img src="images/next.png" alt="화살표"></p>
+				</div>
+			</section>
+			<section class="place_banner_cover">
+				<h2 class="hidden">구역별 가구 소개 배너</h2>
+				<div class="place_banner">
+					<p>PAPA SENSATION</p>
+					<p>파파마데라의 감각적 디자인으로 온 집안을 포근하게 연출해보세요.</p>
+				</div>
+			</section>
+			<section class="place_cover">
+				<h2 class="hidden">구역별 가구 소개</h2>
+				<div class="living">
+					<div><a href="living.html"><img src="images/living.png" alt="거실"></a></div>
+					<div class="detail">
+						<div>ARCHIVE 5 MODULE SOFA</div>
+						<div>SOFA TABLE CIRCLE Oak</div>
+						<div>BEDSIDE CABINET Wulnut</div>
+					</div>
+					<div class="place_name">LIVING</div>
+					<p>시간을 초월하는 아름다움을 가진<br>나만의 거실에서 편안한 휴식을 즐겨보세요</p>
+					<p><a href="living.html">자세히 보기</a></p>
+				</div>
+				<div class="bedroom">
+					<div><a href="bedroom.html"><img src="images/bedroom.png" alt="침실"></a></div>
+					<div class="detail">
+						<div>LINE BED FRAME</div>
+						<div>CANE BENCH Oak</div>
+						<div>CANE SIDE TABLE Oak</div>
+					</div>
+					<div class="place_name">BEDROOM</div>
+					<p>특별한 날만 느꼈던 분위기와 색다른 느낌<br>집에서도 매일 느껴보세요</p>
+					<p><a href="bedroom.html">자세히 보기</a></p>
+				</div>
+				<div class="study">
+					<div><a href="study.html"><img src="images/study.png" alt="서재"></a></div>
+					<div class="detail">
+						<div>LEO Bookshelves Wulnut</div>
+						<div>LEO DESK Wulnut</div>
+						<div>MEISTER Vintage CHAIR</div>
+					</div>
+					<div class="place_name">STUDY</div>
+					<p>아름다운 나뭇결이 고스란히 담긴<br>시간이 지날수록 멋스러운 나만의 서재</p>
+					<p><a href="study.html">자세히 보기</a></p>
+				</div>
+				<div class="kitchen">
+					<div><a href="kitchen.html"><img src="images/kitchen.png" alt="주방"></a></div>
+					<div class="detail">
+						<div>MEISTER Wulnut Vintage CHAIR</div>
+						<div>MEISTER Wulnut TABLE</div>
+					</div>
+					<div class="place_name">KITCHEN</div>
+					<p>아늑하고 편안한 분위기로<br>식사할때도 휴식을 느낄 수 있는 우리집 공간</p>
+					<p><a href="kitchen.html">자세히 보기</a></p>
+				</div>
+			</section>
+			<section class="best_banner_cover">
+				<h2 class="hidden">베스트 제품 배너</h2>
+				<div class="best_banner">
+					<p>PAPA's BEST</p>
+				</div>
+			</section>
+			<section class="best_cover">
+				<h2 class="hidden">베스트 제품</h2>
+				<ul class="best_img">
+					<li>
+						<a href="product1.html"><img src="images/best_01.png" alt="best1"></a>
+						<p>디어 1단 벙커침대 (SS)</p>
+						<p>690,000</p>
+					</li>
+					<li>
+						<a href="product1.html"><img src="images/best_02.png" alt="best2"></a>
+						<p>디어 와이드서랍장</p>
+						<p>541,500</p>
+					</li>
+					<li>
+						<a href="product1.html"><img src="images/best_03.png" alt="best3"></a>
+						<p>디어 B형 침대 (SS/Q)</p>
+						<p>640,000</p>
+					</li>
+					<li>
+						<a href="product1.html"><img src="images/best_04.png" alt="best4"></a>
+						<p>월넛 소파테이블</p>
+						<p>250,000</p>
+					</li>
+					<li>
+						<a href="product1.html"><img src="images/best_05.png" alt="best5"></a>
+						<p>레오 B형 2단거실장</p>
+						<p>1,241,000</p>
+					</li>
+					<li>
+						<a href="product1.html"><img src="images/best_06.png" alt="best6"></a>
+						<p>마이스터월넛 빈티지 식탁/테이블</p>
+						<p>1,700,000</p>
+					</li>
+					<li>
+						<a href="product1.html"><img src="images/best_07.png" alt="best7"></a>
+						<p>마이스터월넛 코지 C타입 의자</p>
+						<p>490,000</p>
+					</li>
+					<li>
+						<a href="product1.html"><img src="images/best_08.png" alt="best8"></a>
+						<p>디어 A형 책장</p>
+						<p>427,500</p>
+					</li>
+				</ul>
+			</section>
+			<section class="showroom_banner_cover">
+				<h2 class="hidden">쇼룸 안내</h2>
+				<div class="showroom_banner">
+					<div class="location">
+						<p>파파마데라 <span>SHOW ROOM</span> 매장 안내 <i class="fas fa-map-marker-alt"></i></p>
+						<p><a href="brand.html">자세한 위치 확인하기</a></p>
+					</div>
+					<div class="number">
+						<p><i class="fas fa-phone-alt"></i> 1111-2222</p>
+						<p>OPEN <span>10:00</span> ~ CLOSE <span>20:00</span><br>명절/공휴일 제외 <span>연중무휴</span></p>
+					</div>
+				</div>
+			</section>
+			<section class="media_banner_cover">
+				<h2 class="hidden">미디어 배너</h2>
+				<div class="media_banner">
+					<p>MEDIA & PRESS</p>
+					<p>미디어에서 파파마데라의 제품을 만나보세요</p>
+				</div>
+			</section>
+			<section class="media_cover">
+				<h2 class="hidden">미디어 미리보기</h2>
+				<ul class="media">
+					<li>
+						<img src="images/media_spon_01.png" alt="알고있지만">
+						<div class="program"><a href="media.html">JTBC 알고있지만,</a></div>
+					</li>
+					<li>
+						<img src="images/media_spon_02.png" alt="슬의생">
+						<div class="program"><a href="media.html">TVN 슬기로운 의사생활</a></div>
+					</li>
+					<li>
+						<img src="images/media_spon_03.png" alt="오케이광자매">
+						<div class="program"><a href="media.html">KBS 오케이 광자매</a></div>
+					</li>
+					<li>
+						<img src="images/media_spon_04.png" alt="월간집">
+						<div class="program"><a href="media.html">JTBC 월간 집</a></div>
+					</li>
+				</ul>
+			</section>
+		</div>
+		
+		<footer>
+			<div class="footer_cover">
+				<div class="footer_info">
+					<section class="cc_cover">
+						<h3>CUSTOMER CENTER</h3>
+						<P>1111-2222</P>
+						<P>월~금 10:00 ~ 20:00</p>
+						<p>점심시간 13:00 ~ 14:00</p>
+						<p>온라인문의는 카카오톡채널 이용해주세요.</p>
+					</section>
+					<section class="bank_cover">
+						<h3>BANK INFO</h3>
+						<p>기업은행</p>
+						<p>11122222-33-444</p>
+						<p>주식회사 파파마데라</p>
+					</section>
+					<section class="community_cover">
+						<h3>COMMUNITY</h3>
+						<ul>
+							<li><a href="notice.html">공지사항</a></li>
+							<li><a href="review.html">포토후기</a></li>
+							<li><a href="qna.html">QnA</a></li>
+							<li><a href="faq.html">FAQ</a></li>
+							<li><a href="personal.html">개인결제창</a></li>
+						</ul>
+					</section>
+				</div>
+				<address class="copyright">
+					<p><span>COMPANY :</span> 주식회사 파파마데라 <span>대표 :</span> 김민지 <span>사업자등록번호 :</span> 000-00-00000 <a href="https://www.hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index.xml" target="_blank">[사업자번호조회]</a> <span>통신판매업 신고번호 :</span> 2020-경기성남-0000</p>
+					<p><span>ADDRESS :</span> [13364] 경기 성남시 중원구 광명로 4 아트팰리스 5층 <span>E-MAIL :</span> <a href="mailto:papamadera@naver">papamadera@naver.com</a></p>
+					<p>Copyright &copy; papamadera. All Rights Reserved.</p>
+				</address>
+				<div class="contact">
+					<section class="sns_cover">
+						<h3>FOLLOW US</h3>
+						<ul class="sns">
+							<li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a></li>
+							<li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube-square fa-2x"></i></a></li>
+							<li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+						</ul>
+					</section>
+					<section class="kakao">
+						<h3>카카오톡채널 친구추가</h3>
+						<ul>
+							<li><i class="fas fa-comment fa-3x"></i></li>
+							<li>아이디 : PAPAMA<br>상담가능시간<br>09:00 ~ 20:00</li>
+						</ul>
+					</section>
+				</div>
+			</div>
+		</footer>
+		<a class="gotop" href="#top"><i class="fas fa-angle-up"></i></a>
+	</body>
+</html>

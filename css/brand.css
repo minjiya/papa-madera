@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+.contents {
+	position:relative;
+	width:100%;
+	min-width:1400px;
+	/* border:1px solid orange; */
+}
+
+.shortcut_nav {
+	position:relative;
+	margin-top:100px;
+	/* width:100%; */
+	/* min-width:1400px; */
+	height:30px;
+	line-height:30px;
+	/* background-color:orange; */
+	border-bottom:1px solid #ccc;
+}
+
+.shortcut_nav>div {
+	position:relative;
+	width:1400px;
+	font-size:13px;
+}
+
+.shortcut_nav>div>p {
+	color:#666;
+}
+
+.shortcut_nav>div>p>a:hover {
+	font-weight:bold;
+}
+
+.shortcut_nav:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+/* 브랜드 모토 */
+
+.brand_motto {
+	position:relative;
+	width:1300px;
+}
+
+.brand_motto>img {
+	margin-top:20px;
+	float:left;
+}
+
+.brand_motto:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+/* 매장위치안내 */
+.showroom_cover {
+	position:relative;
+	width:1200px;
+	height:700px;
+	margin-top:200px;
+	/* border:1px solid lightblue; */
+}
+
+.showroom_cover>h2 {
+	text-align:center;
+	margin-bottom:50px;
+	font-size:25px;
+	letter-spacing:2px;
+	color:rgb(153,153,102);
+	width:1200px;
+	height:50px;
+	line-height:50px;
+	font-size:30px;
+}
+
+.showroom {
+	float:left;
+	width:500px;
+	margin-left:80px;
+}
+
+.showroom>div {
+	position:relative;
+	margin-bottom:10px;
+}
+
+.showroom>div>h3 {
+	/* font-size:20px; */
+	height:40px;
+	line-height:40px;
+	background-color:rgba(153,153,102,0.7);
+	color:#fff;
+	border-radius:10px 10px 0 0 ;
+	text-indent:20px;
+}
+
+.showroom>div>h3>.fas {
+	color:#fff;
+	position:absolute;
+	right:20px;
+	line-height:40px;
+}
+
+.answer {
+	line-height:3em;
+	padding:30px 0;
+	border:5px solid rgba(153,153,102,0.7);
+	border-top:0;
+	text-indent:20px;
+}
+
+.map {
+	position:relative;
+	float:right;
+	margin-right:80px;
+}
+
+.map>div {
+	width:500px;
+	height:350px;
+}
+
+.map>div>iframe {
+	width:500px;
+	height:350px;
+	border:3px solid rgba(153,153,102,0.7);
+	box-sizing:border-box;
+}
+
+.showroom_cover:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+

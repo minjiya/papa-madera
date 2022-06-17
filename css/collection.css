@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+.contents {
+	position:relative;
+	width:100%;
+	min-width:1400px;
+}
+
+.shortcut_nav {
+	position:relative;
+	margin-top:100px;
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #ccc;
+}
+
+.shortcut_nav>div {
+	position:relative;
+	width:1400px;
+	font-size:13px;
+}
+
+.shortcut_nav>div>p {
+	color:#666;
+}
+
+.shortcut_nav>div>p>a:hover {
+	font-weight:bold;
+}
+
+.shortcut_nav:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.collection_banner {
+	position:relative;
+	margin-top:10px;
+	width:1400px;
+}
+
+.collection_banner>div {
+	position:relative;
+	height:400px;
+	margin-bottom:100px;
+}
+
+.collection_banner>div:nth-child(1) {
+	background-image:url(../images/collection_oak.png);
+}
+.collection_banner>div:nth-child(2) {
+	background-image:url(../images/collection_meister.png);
+}
+.collection_banner>div:nth-child(3) {
+	background-image:url(../images/collection_ethnic.png);
+}
+
+.collection_banner>div>a {
+	width:180px;
+	height:40px;
+	border-radius:15px;
+	text-align:center;
+	line-height:40px;
+	font-size:14px;
+	font-weight:bold;
+	color:rgba(255,255,255,0.7);
+	border:2px solid rgba(255,255,255,0.7);
+	position:absolute;
+	top:300px;
+	left:608px;
+
+}
+
+.collection_banner>div>a:hover {
+	background-color:rgba(255,255,255,0.7);
+	color:#666;
+	cursor:pointer;
+}

@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+.contents {
+	position:relative;
+	width:100%;
+	min-width:1400px;
+}
+
+.shortcut_nav {
+	position:relative;
+	margin-top:50px;
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #ccc;
+}
+
+.shortcut_nav>div {
+	position:relative;
+	width:1400px;
+	font-size:13px;
+}
+
+.shortcut_nav>div>p {
+	color:#666;
+}
+
+.shortcut_nav>div>p>a:hover {
+	font-weight:bold;
+}
+
+.shortcut_nav:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+
+/* login_form */
+
+.login_form {
+	width:500px;
+}
+
+.login_form>h2 {
+	margin-top:20px;
+	line-height:2em;
+	text-align:center;
+}
+
+form {
+	position:relative;
+	border:1px solid #ccc;
+}
+
+
+.member {
+	width:500px;
+	height:250px;
+	position:relative;
+	padding:30px 30px;
+	box-sizing:border-box;
+}
+
+.member>h3 {
+	line-height:2em;
+	padding-bottom:10px;
+}
+
+.member>p>input {
+	width:320px;
+	height:40px;
+	margin-bottom:10px;
+	border:1px solid #ccc;
+}
+
+.remember {
+	font-size:15px;
+	line-height:2em;
+	color:#666;
+}
+
+
+.btn>input {
+	position:absolute;
+	top:77px;
+	right:30px;
+	width:100px;
+	height:98px;
+	border:0;
+	background-color:rgb(153,153,102);
+	color:#fff;
+}
+
+.btn>input:hover {
+	background-color:rgba(153,153,102,0.5);
+}
+
+.join_btn {
+	position:relative;
+	padding-top:25px;
+	margin-left:18px;
+	margin-right:18px;
+	line-height:50px;
+	border-top:1px solid #ccc;
+}
+
+
+.join_btn>ul>li {
+	float:left;
+	margin:0 2px;
+}
+
+.join_btn>ul>li>button {
+	display:block;
+	width:150px;
+	height:40px;
+	color:#fff;
+	border:0;
+}
+
+.join_btn>ul>li:nth-child(1)>button {
+	background-color:#cccc99;
+}
+.join_btn>ul>li:nth-child(n+2)>button {
+	background-color:#fff;
+	color:#666;
+	border:1px solid #ccc;
+}
+
+.join_btn>ul>li>button>a {
+	display:block;
+}
+
+.join_btn:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.nonmember {
+	width:500px;
+	height:250px;
+	position:relative;
+	padding:30px 30px;
+	box-sizing:border-box;
+}
+
+.nonmember>h3 {
+	line-height:2em;
+	padding-bottom:10px;
+}
+
+.nonmember>p>input {
+	width:320px;
+	height:40px;
+	margin-bottom:10px;
+	border:1px solid #ccc;
+}
+
+.nonmember>span {
+	font-size:14px;
+	color:#666;
+}

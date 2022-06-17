@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+.contents {
+	position:relative;
+	width:100%;
+	min-width:1400px;
+}
+
+.shortcut_nav {
+	position:relative;
+	margin-top:50px;
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #ccc;
+}
+
+.shortcut_nav>div {
+	position:relative;
+	width:1400px;
+	font-size:13px;
+}
+
+.shortcut_nav>div>p {
+	color:#666;
+}
+
+.shortcut_nav>div>p>a:hover {
+	font-weight:bold;
+}
+
+.shortcut_nav:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+
+/* join_form */
+
+.join_form {
+	width:500px;
+}
+
+.join_form>h2 {
+	margin-top:20px;
+	line-height:2em;
+	text-align:center;
+}
+
+fieldset {
+	border:1px solid #ccc;
+}
+
+.join {
+	position:relative;
+	padding:20px;
+}
+
+.join>p {
+	text-align:center;
+}
+
+.join>p>button {
+	width:300px;
+	height:50px;
+	border:1px solid #ccc;
+	background-color:#fff;
+	line-height:50px;
+	font-weight:bold;
+}
+
+.join>p>button>a {
+	display:block;
+}
+
+.join>p:first-child {
+	margin-top:30px;
+	height:70px;
+	border-bottom:1px solid #ccc;
+}
+
+.join>p:first-child>button {
+	background-color:#cccc99;
+	color:#fff;
+}
+
+.join>p:last-child {
+	padding-top:20px;
+	height:200px;
+}
+
+.join>p:last-child>button {
+	margin-bottom:10px;
+	color:#777;
+}
+
+/* 로그인바로가기  */
+form>div {
+	font-size:14px;
+	margin-top:10px;
+	color:#666;
+}
+
+form>div>a:hover {
+	color:#ccc;
+	font-weight:bold;
+}
+
+
+

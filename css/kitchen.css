@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+.contents {
+	position:relative;
+	width:100%;
+	min-width:1400px;
+}
+
+.shortcut_nav {
+	position:relative;
+	margin-top:100px;
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #ccc;
+}
+
+.shortcut_nav>div {
+	position:relative;
+	width:1400px;
+	font-size:13px;
+}
+
+.shortcut_nav>div>p {
+	color:#666;
+}
+
+.shortcut_nav>div>p>a:hover {
+	font-weight:bold;
+}
+
+.shortcut_nav:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.banner {
+	position:relative;
+	width:1400px;
+	text-align:center;
+}
+
+.banner>h3 {
+	font-size:22px;
+	letter-spacing:2px;
+	margin-top:15px;
+}
+
+.banner>div {
+	position:relative;
+	margin-top:15px;
+	height:300px;
+	background-image:url(../images/kitchen_banner.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+.banner:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+	/* 상품 소개 */
+/* 제품메뉴선택버튼 */
+form {
+	position:relative;
+	width:1400px;
+}
+
+.menu {
+	position:relative;
+	width:1400px;
+	height:250px;
+}
+
+.menu>ul {
+	position:absolute;
+	bottom:100px;
+	text-align:center;
+	left:276.25px;
+}
+
+.menu>ul>li {
+	float:left;
+	width:272.5px;
+	border-bottom:1px solid #ccc;
+	margin:0 5px 0;
+	padding-bottom:5px;
+	transform:scale(1.0);
+}
+
+.menu>ul>li>label {
+	font-size:14px;
+	font-family:"나눔고딕", sans-serif;
+	color:#666;
+}
+
+.menu>ul>li>input {
+	display:none;
+}
+
+.menu>ul>li:hover {
+	color:rgb(204,204,153);
+	font-weight:bold;
+	border-bottom:1px solid rgb(204,204,153);
+	transform:scale(1.03);
+	cursor:pointer;
+}
+.menu>ul>li:hover>label {
+	color:rgb(204,204,153);
+}
+
+.menu:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+/* 상품분류기준 */
+
+.classify {
+	position:relative;
+}
+
+.classify_btn {
+	width:1400px;
+	height:50px;
+	line-height:50px;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;
+}
+
+.classify_btn>li {
+	float:left;
+	font-size:13px;
+	margin:0 15px 0;
+	color:#666;
+}
+
+.classify_btn>li:first-child {
+	margin-left:70px;
+}
+
+.fas {
+	color:rgb(204,204,153);
+}
+
+.classify_btn>li>input {
+	display:none;
+}
+
+.classify_btn>li>label {
+	font-family:"나눔고딕", sans-serif;
+	color:#666;
+}
+
+.classify_btn>li>label:hover {
+	cursor:pointer;
+}
+
+.classify:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+/* 이미지커버 */
+
+.images_cover {
+	position:relative;
+	width:1300px;
+}
+
+.images>li {
+	position:relative;
+	float:left;
+	width:285px;
+	margin:50px 20px;
+}
+
+.images>li>p:first-child {
+	width:285px;
+	height:300px;
+	overflow:hidden;
+	overflow:hidden;
+}
+
+.images>li>p>a>img {
+	transform:scale(1.0);
+	transition:transform 0.5s;
+}
+
+.images>li>h3, .images>li>p:last-child {
+	padding-top:10px;
+	font-size:14px;
+}
+
+.images>li>p>a>img:hover {
+	transform:scale(1.1);
+	cursor:pointer;
+}
+
+.images_cover:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+/* 더보기버튼 */
+
+.plus {
+	text-align:center;
+}
+
+button {
+	border:1px solid rgb(204,204,153);
+	border-radius:20px;
+	background-color:#fff;
+	width:130px;
+	height:40px;
+	margin-bottom:50px;
+	cursor:pointer;
+	color:#666;
+}
+
+button:hover {
+	font-weight:bold;
+	background-color:rgb(204,204,153);
+	color:#fff;
+}
+
+

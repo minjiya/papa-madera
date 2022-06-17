@@ -1,0 +1,371 @@
+@charset "utf-8";
+
+/* 기본사항 */
+
+* {
+	margin:0 auto;
+	color:#393939;
+	/* color:#666; */
+	/* border:1px solid blue; */
+	/* background-color:pink; */
+}
+
+body {
+	font-family:"나눔고딕","Arial",sans-serif;
+}
+
+ul {
+	padding:0;
+}
+
+ul>li {
+	list-style:none;
+}
+
+img {
+	vertical-align:top;
+}
+
+a {
+	text-decoration:none;
+	color:inherit;
+}
+
+.hidden {
+	color:#fff;
+	position:absolute;
+	left:-9999px;
+	font-size:0;
+}
+
+
+/* header */
+
+header {
+	/* background-color:green; */
+	width:100%;
+}
+
+.header_cover {
+	width:1400px;
+	height:100px;
+	/* background-color:yellow; */
+	position:relative;
+}
+
+.header_cover>h1 {
+	width:300px;
+	margin-top:20px;
+	margin-left:550px;
+	float:left;
+}
+
+.info_cover {
+	/* background-color:skyblue; */
+	float:right;
+	width:270px;
+	height:100px;
+}
+
+.info_cover>ul>li {
+	float:left;
+}
+
+.personal_info {
+	padding-top:25px;
+	font-size:12px;
+}
+
+.personal_info>li>a {
+	padding-right:20px;
+}
+
+.personal_info>li>a:hover {
+	color:#ccc;
+}
+
+.search_info {
+	padding-top:30px;
+}
+
+.search_info>li {
+	margin-right:15px;
+}
+
+.search_info>li:first-child>input {
+	width:190px;
+	border-radius:5px;
+	border:1px solid #ccc;
+}
+
+.search_info>li>.fas {
+	color:#666;
+}
+
+.search_info>li>.fas:hover {
+	color:#ccc;
+}
+
+		/* global navigation */
+
+header>nav {
+	position:relative;
+	width:100%;
+	min-width:1400px;
+	height:40px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+
+.main {
+	position:relative;
+	width:1120px;
+	/* height:40px; */
+	letter-spacing:1px;
+	text-align:center;
+	font-size:14px;
+}
+
+.main>li {
+	float:left;	
+	width:140px;
+	height:40px;
+	line-height:40px;
+}
+
+.main:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.main>li:hover {
+	color:#ccc;
+}
+
+.add {
+	color:#ccc;
+	font-weight:bold;
+}
+
+		/* 서브 내비게이션 */
+
+.sub {
+	position:relative;
+	z-index:50;
+	width:140px;
+	border:1px solid #ccc;
+	border-top:0;
+	background-color:rgba(255,255,255,0.7);
+	border-radius:0 0 10px 10px;
+}
+
+.sub>li:last-child {
+	padding-bottom:5px;
+}
+
+.sub>li>a {
+	font-size:13px;
+	color:#666;
+}
+
+.sub>li:hover {
+	font-weight:bold;
+}
+
+/* .contents */
+.contents {
+	position:relative;
+	min-height:1000px;
+}
+
+/* footer */
+
+		/* footer_info */
+
+footer{
+	width:100%;
+	min-width:1400px;
+	height:330px;
+	/* background-color:lightgreen; */
+	border-top:1px solid #ccc;
+	margin-top:50px;
+}
+
+.footer_cover {
+	position:relative;
+	width:1400px;
+	height:300px;
+	/* background-color:yellow; */
+}
+
+.footer_info {
+	position:relative;
+	width:1000px;
+	height:180px;
+	/* background-color:lightyellow; */
+	float:left;
+	font-size:0.8em;
+}
+
+.footer_info>section {
+	float:left;
+	width:300px;
+	padding-top:30px;
+}
+
+.footer_info>section>p,.footer_info>section>ul>li {
+	color:#666;
+}
+
+.footer_info>section>h3 {
+	font-size:13px;
+}
+
+.cc_cover {
+	padding-left:30px;
+
+}
+
+.cc_cover>p {
+	padding-bottom:5px;
+}
+
+.cc_cover>p:nth-child(2) {
+	font-size:1.3em;
+	font-weight:bold;
+	color:#666;
+	padding:15px 0 15px; 
+}
+
+.bank_cover>h3 {
+	padding-bottom:15px;
+}	
+
+.bank_cover>p {
+	padding-bottom:5px;
+}
+
+.community_cover>h3 {
+	padding-bottom:15px;
+}
+
+.community_cover>ul>li {
+	padding-bottom:5px;
+}
+
+.community_cover>ul>li:hover {
+	color:#ccc;
+}
+
+		/* copyright */
+
+.copyright {
+	/* background-color:pink; */
+	position:relative;
+	float:left;
+	width:1000px;
+	height:120px;
+}
+
+.copyright>p {
+	font-style:normal;
+	font-size:0.8em;
+	padding-left:30px;
+	padding-bottom:5px;
+	color:#666;
+}
+
+.copyright>p:first-child {
+	padding-top:30px;
+}
+
+.copyright>p>span {
+	margin-left:10px;
+	color:#666;
+}
+
+.copyright>p>span:first-child {
+	margin-left:0px;
+}
+
+.copyright>p>a {
+	font-weight:bold;
+}
+
+.copyright>p>a:hover {
+	text-decoration:underline;
+	color:#ccc;
+}
+
+		/* contact */
+
+.contact {
+	position:absolute;
+	top:0;
+	right:0;
+	width:400px;
+	height:300px;
+	/* background-color:skyblue; */
+}
+
+.contact>section {
+	float:left;
+	margin-left:200px;
+	margin-top:30px;
+	/* background-color:#fff; */
+}
+
+.contact>section>h3 {
+	font-size:13px;
+	padding-bottom:15px;
+}
+
+.sns_cover {
+	width:150px;
+	height:100px;
+}
+
+.sns>li>a>.fab {
+	float:left;
+	margin-right:15px;
+	color:#666;
+}
+	
+.sns>li>a>.fab:hover {
+	color:#ccc;
+}
+
+.kakao>ul>li {
+	float:left;
+	font-size:0.8em;
+	padding-right:20px;
+	line-height:18px;
+	color:#666;
+}
+
+.kakao>ul>li>.fas {
+	padding-top:5px;
+	color:#666;
+}
+
+
+/* 스크롤업 버튼 */
+
+.gotop {
+	position:fixed;
+	width:45px;
+	height:45px;
+	background:#999966;
+	border-radius:25px;
+	bottom:50px;
+	right:50px;
+	text-align:center;
+	line-height:45px;
+	font-size:22px;
+}
+
+.gotop>.fas {
+	color:#fff;
+}
+

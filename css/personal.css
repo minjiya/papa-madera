@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+.contents {
+	position:relative;
+	width:100%;
+	min-width:1400px;
+}
+
+.shortcut_nav {
+	position:relative;
+	margin-top:100px;
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #ccc;
+}
+
+.shortcut_nav>div {
+	position:relative;
+	width:1400px;
+	font-size:13px;
+}
+
+.shortcut_nav>div>p {
+	color:#666;
+}
+
+.shortcut_nav>div>p>a:hover {
+	font-weight:bold;
+}
+
+.shortcut_nav:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.banner {
+	position:relative;
+	width:1400px;
+	text-align:center;
+}
+
+.banner>h3 {
+	font-size:22px;
+	letter-spacing:2px;
+	margin-top:30px;
+}
+
+
+.banner:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+	/* 상품 소개 */
+
+/* 상품분류기준 */
+
+.classify {
+	position:relative;
+    margin-top: 80px;
+}
+
+.classify_btn {
+	width:1400px;
+	height:50px;
+	line-height:50px;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;
+}
+
+.classify_btn>li {
+	float:left;
+	font-size:13px;
+	margin:0 15px 0;
+	color:#666;
+}
+
+.classify_btn>li:first-child {
+	margin-left:70px;
+}
+
+.fas {
+	color:rgb(204,204,153);
+}
+
+.classify_btn>li>input {
+	display:none;
+}
+
+.classify_btn>li>label {
+	font-family:"나눔고딕", sans-serif;
+	color:#666;
+}
+
+.classify_btn>li>label:hover {
+	cursor:pointer;
+}
+
+.classify:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+/* 이미지커버 */
+
+.images_cover {
+	position:relative;
+	width:1300px;
+}
+
+.images>li {
+	position:relative;
+	float:left;
+	width:285px;
+	margin:50px 20px;
+}
+
+.images>li>p:first-child {
+	width:285px;
+	height:300px;
+	overflow:hidden;
+	overflow:hidden;
+}
+
+.images>li>p>img {
+	width:285px;
+    height:300px;
+    border-bottom:1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.images>li>h3, .images>li>p:last-child {
+	padding-top:10px;
+	font-size:14px;
+}
+
+.images>li>h3:hover {
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+
+
+.images_cover:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+/* 더보기버튼 */
+
+.plus {
+	text-align:center;
+}
+
+button {
+	border:1px solid rgb(204,204,153);
+	border-radius:20px;
+	background-color:#fff;
+	width:130px;
+	height:40px;
+	margin-bottom:50px;
+	cursor:pointer;
+	color:#666;
+}
+
+button:hover {
+	font-weight:bold;
+	background-color:rgb(204,204,153);
+	color:#fff;
+}
+
+

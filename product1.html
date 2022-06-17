@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<title>제품 상세페이지</title>
+		<meta charset="utf-8">
+		<link href="css/common.css" rel="stylesheet">
+		<link href="css/product1.css" rel="stylesheet">
+		<script src="js/jquery-1.12.3.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/product1.js"></script>
+		<script src="https://kit.fontawesome.com/6ab2821d7c.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header id="top">
+			<div class="header_cover">
+				<h1><a href="index.html"><img src="images/logo.png" alt="파파마데라로고"></a></h1>
+				<div class="info_cover">
+					<ul class="personal_info">
+						<li><a href="login.html">로그인</a></li>
+						<li><a href="join.html">회원가입</a></li>
+						<li><a href="cart.html">장바구니</a></li>
+						<li><a href="order.html">주문조회</a></li>
+					</ul>
+					<ul class="search_info">
+						<li><input type="text" id="search" title="search"></li>
+						<li><i class="fas fa-search"></i></li>
+					</ul>
+				</div>
+			</div>
+			<nav>
+				<ul class="main">
+					<li><a href="collection.html" class="ad">COLLECTION</a>
+						<ul class="sub">
+							<li><a href="collection.html">OAK</a></li>
+							<li><a href="collection.html">MEISTER</a></li>
+							<li><a href="collection.html">ETHNIC</a></li>
+						</ul>
+					</li>
+					<li><a href="living.html" class="ad">LIVING</a>
+						<ul class="sub">
+							<li><a href="living.html">소파</a></li>
+							<li><a href="living.html">거실장</a></li>
+							<li><a href="living.html">소파테이블</a></li>
+							<li><a href="living.html">스툴</a></li>
+						</ul>
+					</li>
+					<li><a href="bedroom.html" class="ad">BEDROOM</a>
+						<ul class="sub">
+							<li><a href="bedroom.html">침대</a></li>
+							<li><a href="bedroom.html">화장대/콘솔</a></li>
+							<li><a href="bedroom.html">협탁</a></li>
+							<li><a href="bedroom.html">서랍/수납장</a></li>
+						</ul>
+					</li>
+					<li><a href="study.html" class="ad">STUDY</a>
+						<ul class="sub">
+							<li><a href="study.html">책상</a></li>
+							<li><a href="study.html">책장</a></li>
+							<li><a href="study.html">소품</a></li>
+						</ul>
+					</li>
+					<li><a href="kitchen.html" class="ad">KITCHEN</a>
+						<ul class="sub">
+							<li><a href="kitchen.html">식탁</a></li>
+							<li><a href="kitchen.html">그릇장</a></li>
+							<li><a href="kitchen.html">용품</a></li>
+						</ul>
+					</li>
+					<li><a href="media.html" class="ad">MEDIA</a>
+						<ul class="sub">
+							<li><a href="media.html">미디어협찬</a></li>
+							<li><a href="media.html">언론</a></li>
+						</ul>
+					</li>
+					<li><a href="event.html" class="ad">EVENT</a>
+						<ul class="sub">
+							<li><a href="event.html">진열상품</a></li>
+							<li><a href="event.html">이벤트</a></li>
+							<li><a href="event.html">리뷰</a></li>
+						</ul>
+					</li>
+					<li><a href="brand.html" class="ad">BRAND</a>
+						<ul class="sub">
+							<li><a href="brand.html">매장안내</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		
+		<div class="contents">
+			<section class="shortcut_nav">
+				<h2 class="hidden">바로가기네비게이션</h2>
+				<div>
+					<p><a href="index.html">HOME</a> > <a href="living.html">LIVING</a> > PRODUCT</p>
+				</div>
+			</section>
+			<div class="product_cover">
+				<section class="product_img_cover">
+					<h2 class="hidden">제품이미지</h2>
+					<div>
+						<img id="img1_big" src="images/pb1-1.png" alt="제품대표이미지">
+					</div>
+					<ul class="vertical_img">
+						<li><img src="images/ps1-1.png" alt="제품이미지"></li>
+						<li><img src="images/ps1-2.png" alt="제품이미지"></li>
+						<li><img src="images/ps1-3.png" alt="제품이미지"></li>
+						<li><img src="images/ps1-4.png" alt="제품이미지"></li>
+						<li><img src="images/ps1-5.png" alt="제품이미지"></li>
+					</ul>
+				</section>
+				<section class="product_info_cover">
+					<h3>레오 A형 책상<br><span>Reo study table type A</span></h3>
+					<table border="0">
+						<tr>
+							<th>판매가</td>
+							<td class="price">686,200 원</td>
+						</tr>
+						<tr>
+							<th>배송비</td>
+							<td>50,000 원<br><span>지역에 따라 기본 배송시에서 추가 요금이 발생합니다.</span></td>
+						</tr>
+						<tr>
+							<th>할인 쿠폰</td>
+							<td><input type="button" value="쿠폰 다운받기"></td>
+						</tr>
+						<tr>
+							<th>사이즈</td>
+							<td>(W)1580 * (D)600 * (H)800 mm</td>
+						</tr>
+						<tr>
+							<th>구매 혜택</td>
+							<td>적립금 : 22,600원</td>
+						</tr>
+						<tr>
+							<th>옵션</td>
+							<td>
+								<select class="buy_option">
+									<option value="기본" selected>선택 안 함</option>
+									<option value="책장추가">레오 A형 3단 책장 + 635,100 원</option>
+									<option value="의자추가">마이스터월넛 빈티지 의자 + 420,000원</option>
+									<option value="선할인">선할인 : 제품 수령 후 1주일 이내 포토리뷰 작성 -50,000 원</option>
+								</select>
+							</td>
+						</tr>
+					</table>
+				</section>
+				<section class="product_btn_cover">
+					<h2 class="hidden">구매 및 장바구니 버튼</h2>
+					<div>
+						<input type="button" value="BUY IT NOW">
+						<input type="button" value="CART">
+						<input type="button" value="WISH">
+					</div>
+				</section>
+			</div>
+			<div class="product_contents">
+				<ul class="product_contents_menu">
+					<li class="default"><a href="#detail">DETAIL</a></li>
+					<li><a href="#review">REVIEW</a></li>
+					<li><a href="#qna">QnA</a></li>
+					<li><a href="#delivery">NOTICE</a></li>
+				</ul>
+				<section class="detail" id="detail">
+					<h3 class="hidden">상세내용</h3>
+					<div></div>
+				</section>
+				<section class="review" id="review">
+					<h3>리뷰</h3>
+					<input type="button" value="구매평 작성">
+					<div>작성된 리뷰가 없습니다.</div>
+				</section>
+				<section class="qna" id="qna">
+					<h3>QnA</h3>
+					<input type="button" value="QnA작성">
+					<div>작성된 문의가 없습니다.</div>
+				</section>
+				<section class="notice">
+					<h3 class="hidden">주의사항</h3>
+					<div class="delivery" id="delivery">
+						<h4>배송안내<i class="fas fa-angle-down"></i></h4>
+						<ul>
+							<li><span>배송기간</span>
+								<ul>
+									<li>- 고객님의 결제 내역이 확인된 후, 상품을 준비합니다.</li>
+									<li>- 상품 준비가 완료되면 해피콜이 진행되며, 해피콜을 통해 고객님과 배송 관련 사전 협의가 이뤄집니다.</li>
+									<li>- 해당 일정에 가구를 전문적으로 배송하시는 전문 기사님께서 안전한 배송 설치 서비스를 진행해 드립니다. </li>
+									<li>- 입금확인 후, 서울ㆍ경기 수도권 3~10일 / 수도권 외곽  5~10일 / 지방 5~15일 이내에 배송하고 있습니다.(일요일 및 공휴일배송은 제외)</li>
+									<li>- 제주 및 도서산간 등 일부 지역은 협의 후 배송이 진행됩니다.</li>
+									<li>- 배송기간은 평균 기간을 나타내며, 재고 현황, 도로 상황, 기상조건, 특수 기간(명절) 등에 따라 연기될 수 있습니다.</li>
+									<li>- 배송 특성상 도로 상황, 설치시간, 배송 코스 등의 이유로 배송일 지정은불가하며, 기사님이 스케줄을 조율하여 해당 배송일을 안내해드리고 있습니다.</li>
+								</ul>
+							</li>
+							<li><span>배송시간</span>
+								<ul>
+									<li>- 배송은 시간은 배송 전날 또는 당일 오전에 기사님께서 해피콜 후 배송 됩니다.</li>
+								</ul>
+							</li>
+							<li><span>배송안내</span>
+								<ul>
+									<li>- 배송 안내 전화를 받지 않으시는 경우, 배송이 지연될 수 있습니다 </li>
+									<li>- 수취인 부재 / 주소 불분명 / 연락처 오기재로 인해 발생한 오배송, 수취거부 및 변심에 의한 반품, 교환의 경우 왕복 배송비를 청구할 수 있습니다.</li>
+									<li>- 기존에 사용하시던 가구의 수거 및 이동, 철거 서비스는 불가하오니, 제품이 들어갈 공간을 미리 마련해 주시기 바랍니다.</li>
+								</ul>
+							</li>
+							<li><span>배송비용</span>
+								<ul>
+									<li>- 배송비는 착불로 진행되며, 상품의 수량/종류/지역에 따라 상이합니다.</li>
+									<li>- 배송비는 각 상품별 안내 페이지에 기재되어 있으니 참고 부탁드립니다.</li>
+									<li>- 가구 배송 특성상 묶음배송이 불가하며 개별 배송비가 적용됩니다.</li>
+									<li>- 엘리베이터가 없는 2층 이상의 배송지 또는 엘리베이터가 좁아 가구의 이동이 어려운 경우 등 배송 현장의 특수성으로 인한 사다리차와 기타 장비 사용료 및 추가 발생 비용은 고객님 부담입니다.(사다리차, 엘리베이터 사용료, 입구 협소 시 발생하는 추가 비용 등)</li>
+									<li>-  도서산간 지역의 경우 추가 비용이 발생할 수 있습니다.</li>
+									<li>-  통행료 (영종도 일대, 거제도 등) 와 같은 추가 요금이 발생하는 지역은 고객님 부담입니다 .</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="refund">
+						<h4>환불안내<i class="fas fa-angle-down"></i></h4>
+						<ul>
+							<li><span>교환/반품이 가능한 경우</span>
+								<ul>
+									<li>- 배송된 상품이 불량/ 파손/ 스크래치가 있는 경우, 수령일 당일 고객센터 접수가 이뤄져야 하며, 확인 후 무상으로 진행됩니다.</li>
+								</ul>
+							</li>
+							<li><span>교환/반품이 불가능한 경우</span>
+								<ul>
+									<li>- 박스 개봉 후 조립이 된 제품 / 사용의 흔적 / 주문 제작 / 전시품 / 아울렛 제품의 경우</li>
+									<li>- 고객의 취급 부주의로 인한 상품의 분실 또는 훼손</li>
+									<li>-  잘못된 보관, 세척법, 세제 사용으로 인한 손상</li>
+									<li>- 홈페이지에 기재되어 있는 제품 소재의 특성에 대한 부분</li>
+									<li>- 기온 차에 의한 변형 또는 변색, 나뭇결이나 톤 차이, 옹이</li>
+									<li>- 사용감에 따른 자연스러운 늘어남, 올 풀림 현상</li>
+								</ul>
+							</li>
+							<li><span>환불</span>
+								<ul>
+									<li>- 환불은 제품 회수 상품 확인 후 1~7일 이내에 처리됩니다.</li>
+									<li>- 현금 결제는 주문 취소 접수 후 3일 이내 / 카드 결제는 주문 취소 확정 후 카드사 취소 확정까지 영업일 기준 7- 10일 소요됩니다.</li>
+									<li>- 구매 시 사용한 적립금과 쿠폰은 자동으로 복원됩니다.</li>
+								</ul>
+							</li>
+							<li><span>A/S</span>
+								<ul>
+									<li>- 품질보증기간은 배송일을 기준으로 1년입니다</li>
+									<li>- 교환/ 반품, 피해 보상은 공정거래 위원회에서 고시한 소비자 분쟁 해결 기준에 따릅니다.</li>
+									<li>- A/S 문의는 홈페이지 [문의 게시판] 또는 [C/S센터 1111-2222] , 카카오톡 플러스친구 [PAPAMA]를 통해 접수해주시기 바랍니다.</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+			<div class="popup_cover">
+				<section class="coupon">
+					<h2>할인 쿠폰 받기</h2>
+					<div><img src="images/coupon.png" alt="쿠폰" width="500px"></div>
+					<input type="button" value="다운받기">
+				</section>
+			</div>
+		</div>
+		
+		<footer>
+			<div class="footer_cover">
+				<div class="footer_info">
+					<section class="cc_cover">
+						<h3>CUSTOMER CENTER</h3>
+						<P>1111-2222</P>
+						<P>월~금 10:00 ~ 20:00</p>
+						<p>점심시간 13:00 ~ 14:00</p>
+						<p>온라인문의는 카카오톡채널 이용해주세요.</p>
+					</section>
+					<section class="bank_cover">
+						<h3>BANK INFO</h3>
+						<p>기업은행</p>
+						<p>11122222-33-444</p>
+						<p>주식회사 파파마데라</p>
+					</section>
+					<section class="community_cover">
+						<h3>COMMUNITY</h3>
+						<ul>
+							<li><a href="notice.html">공지사항</a></li>
+							<li><a href="review.html">포토후기</a></li>
+							<li><a href="qna.html">QnA</a></li>
+							<li><a href="faq.html">FAQ</a></li>
+							<li><a href="personal.html">개인결제창</a></li>
+						</ul>
+					</section>
+				</div>
+				<address class="copyright">
+					<p><span>COMPANY :</span> 주식회사 파파마데라 <span>대표 :</span> 김민지 <span>사업자등록번호 :</span> 000-00-00000 <a href="https://www.hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index.xml" target="_blank">[사업자번호조회]</a> <span>통신판매업 신고번호 :</span> 2020-경기성남-0000</p>
+					<p><span>ADDRESS :</span> [13364] 경기 성남시 중원구 광명로 4 아트팰리스 5층 <span>E-MAIL :</span> <a href="mailto:papamadera@naver">papamadera@naver.com</a></p>
+					<p>Copyright &copy; papamadera. All Rights Reserved.</p>
+				</address>
+				<div class="contact">
+					<section class="sns_cover">
+						<h3>FOLLOW US</h3>
+						<ul class="sns">
+							<li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a></li>
+							<li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube-square fa-2x"></i></a></li>
+							<li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+						</ul>
+					</section>
+					<section class="kakao">
+						<h3>카카오톡채널 친구추가</h3>
+						<ul>
+							<li><i class="fas fa-comment fa-3x"></i></li>
+							<li>아이디 : PAPAMA<br>상담가능시간<br>09:00 ~ 20:00</li>
+						</ul>
+					</section>
+				</div>
+			</div>
+		</footer>
+		<a class="gotop" href="#top"><i class="fas fa-angle-up"></i></a>
+	</body>
+</html>
