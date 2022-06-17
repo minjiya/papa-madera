@@ -1,4 +1,4 @@
-﻿# papa-madera
+﻿# papa-madera 파파 마데라
 ## 원목 가구 판매 쇼핑몰 제작
 
 + 고정형 웹
